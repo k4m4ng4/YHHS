@@ -7250,7 +7250,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-collapse: collapse !important; }
     .table td,
     .table th {
-      background-color: #fff !important; }
+      background-color: rgb(255 255 235 / 75%); !important; }
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #dee2e6 !important; } }

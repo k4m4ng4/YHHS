@@ -1,30 +1,9 @@
-.defination{
-  align-content: center;
-  position: relative;
-  background: rgb(123 199 160 / 14%);
-   padding: 8%;
-  margin: 0;
-  width: 100%;
-  left: 0;
-}
-.defination p{
-  font-size: 50px;
-  font-weight: 600;
-  font-family: gaegu, cursive;
-  text-align: center;
-   padding: 0;
-  margin: 0;
-
-
-
-}
 
 .state{
   display: grid;
   grid-template-columns: 50px repeat(2, 1fr)60px repeat(2, 1fr) 60px;
-background: rgb(123 199 160 / 14%); 
-/*background: rgb(240,255,240);*/
-padding-bottom: 5%;
+
+padding: 6% 0 5% 0  ;
 }
 .vis{
   grid-row: 1/3;
@@ -277,11 +256,7 @@ font-weight: 400;
     margin-top: 15%;
 
 }
-.defination p{
-  font-size: 20px;
-  font-weight: 500;
- 
-}
+
 
 
   .vision{
@@ -1122,90 +1097,8 @@ font-size: 17px;
 }
 
 
-.main{
-     width: 100%;
-     height: 50vh;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     z-index: 1;
-   }
-   .profile-card{
-     position: relative;
-     font-family: sans-serif;
-     width: 220px;
-     height: 260px;
-     background: #fff;
-     padding: 30px;
-     border-radius: 10px;
-     box-shadow: 0 0 22px #3336;
-     margin: 0 25px;
-     z-index: 1;
-   }
-   
-   .profile-card .img{
-     position: relative;
-     width: 100%;
-     height: 100%;
-     transition: .6s;
-     z-index: 99;
-     transform: translateY(-60px);
-   }
-   .img img{
-     width: 100%;
-     border-radius: 50%;
-     box-shadow: 0 0 22px #3336;
 
-   }
-   .profile-card img{
-     border-radius: 10%;
-   }
-   .caption{
-     text-align: center;
-     transform: translateY(-80px);
-     opacity: 0;
-     transition: .6s;
-   }
-   .profile-card .caption{
-     opacity: 1;
-   }
-   .caption h3{
-     font-size: 21px;
-     font-family: sans-serif;
-   }
-   .caption p{
-     font-size: 15px;
-     color: #0c52a1;
-     font-family: sans-serif;
-     margin: 2px 0 9px 0;
-   }
-   .caption .social-links a{
-     color: #333;
-     margin-right: 15px;
-     font-size: 21px;
-     transition: .6s;
-   }
-   .social-links a{
-     color: #0c52a1;
-   }
-
-   .awareness{
-    width: 100%;
-    margin: 2%;
-    height: 70vh;
-   }
-   .awareness-text{
-    float: left;
-   }
-   .awareness-pic {
-    float: right;
-   }
-   .awareness .awareness-pic img {
-    height: 500px;
-    width: 100%;
-    opacity: .5;
-   }
-
+  
 
 .content {
   padding: 2% 2% 2% 2%;
@@ -1302,6 +1195,10 @@ blockquote.testimony-3 {
 
 
   }
+   @media (max-width: 425px){
+  .s-story{
+  font-size: 24px;
+}}
 
  @media (max-width: 796px){
   
@@ -1361,6 +1258,9 @@ blockquote.testimony-3 {
 
 
   }
+.s-story{
+  font-size: 24px;
+}
 
 }
 
@@ -1412,7 +1312,7 @@ blockquote.testimony-3 {
   margin: 1% 0 2% 0;
 text-align: center;
 font-weight: 600;
-font-size: 65px;
+font-size: 60px;
 font-family: gaegu, cursive;
 background: rgb(123 199 160 / 0);
 }
@@ -1424,6 +1324,8 @@ background: rgb(123 199 160 / 0);
   margin: 1px;
   position: relative; }
   @media (max-width: 991.98px) {
+    .s-story{
+      font-size: 45px;}
     .bg-img {
       background-position: center center !important; } }
   .bg-img:before {
