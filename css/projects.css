@@ -1,0 +1,135 @@
+.projects{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: blue;
+}
+.funding{
+	position: relative;
+	width:1px;
+    word-wrap: break-word;
+    font-family: monospace; 
+
+}
+.p_container{
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+
+}
+.hiv_title{
+	position: absolute;
+	width: 50%;
+	height: 50px ;
+	background: lavenderblush;
+	border-radius: 80px;
+	top: 20%;
+	left: 25%;
+	border: 1px solid black ;	
+}
+.hiv_funding{
+	position: relative;
+	width: 150px;
+	height: 500px;
+	background: lavenderblush;
+	border-radius: 80px;
+	top: 28%;
+	border: 1px solid black ;
+
+}
+.hiv_funding p{
+	width:1px;
+    word-wrap: break-word;
+    font-family: gaegu, cursive; 
+    font-size: 14px;
+    font-weight: 900;
+    padding: 28% 0 0 40%;
+    text-transform: capitalize;
+    margin: 0;
+}
+.hiv_title p{
+	position: relative;
+	font-family: gaegu, cursive;
+	font-weight: 700;
+	font-size: 30px;
+	left: 25%;
+	top: 5%;
+
+}
+.hiv{
+	position: absolute;
+	width: 97%;
+	height: 95%;
+	background: #fff;
+	border-radius: 80px ;
+	border: 2px solid grey ;
+	
+
+}
+#hiv_vl {
+  border-left: 4px solid #7bc7a0 ;
+  height: 400px;
+  position: absolute;
+  left: 16%;
+  margin-left: -3px;
+  top: 29%;
+}
+.hiv_fund_img img{
+	position: absolute;
+	width: 150px;
+	height: auto;
+	top: 32%;
+	left: 4%;
+}
+.hiv_fund_img img:nth-child(2){
+	position: absolute;
+	width: 150px;
+	height: auto;
+	top: 50%;
+	left: 4%;
+
+}
+.hiv_fund_img img:nth-child(3){
+	position: absolute;
+	width: 150px;
+	height: auto;
+	top: 70%;
+	left: 4%;
+
+}
+.obj_title p{
+	position: absolute;
+	top: 16%;
+	left: 45%;
+	font-size: 40px;
+	font-family: gaegu, cursive;
+	font-weight: 800;
+}
+
+.hiv_details{
+	
+	font-family: poppins, cursive;
+	font-size: 16px;
+	line-height: 28px;
+}
+.hiv_row{
+	position: absolute;
+	left: 200px;
+	top: 230px;
+	width: 90%;
+}
+.hiv_row div:nth-child(1){
+	margin-left: 3%;
+}
+.hiv_row div:nth-child(1) p{
+	margin: 5% 0 ;
+}
+.hiv_row div:nth-child(1) p:nth-child(1){
+	margin-top: 0 ;
+}
+.hiv_row div:nth-child(2) p{
+
+	padding: 5px 8px;
+	justify-content: center;
+	
+}
