@@ -1166,12 +1166,14 @@ height: 80vh;
     margin: 0;
     padding: 10px;
     font-family: poppins;
+    font-size: 14px;
+
   }
   
   .hiv_awareness{
     border-radius:80px 80px 30px 30px;
     height: auto;
-    margin: 0;
+    margin: 0 0 20PX 0;
     padding: 0;
     background-color: rgb(183 ,234, 234, .1);
   
@@ -1181,14 +1183,11 @@ height: 80vh;
   .hiv_awareness_title{
     position: relative;
     top: 0;
-    width: 100%;
     height: 120px;
-    background-color: #f2d0db;
-    border-radius: 80px 80px 0 0;
   }
   
   .awareness_details{
-    padding: 15px 5px 15px 5px;
+    padding: 10PX;
     justify-content: center;
   }
   
@@ -1197,9 +1196,9 @@ height: 80vh;
   }
   .hiv_awareness_title p{
     position: absolute;
-    left: 25px;
+    left: 35px;
     top: 24px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: gaegu;
   }
   
@@ -1218,27 +1217,28 @@ height: 80vh;
     top: 0;
     width: 100%;
     height: 85px;
-    background-color: #89fcc0;
-    border-radius: 80px 80px 0 0;
+
   }
   
   .care_details{
-    padding: 20px;
+    padding: 10px 5px;
     justify-content: center;
-    line-height: 35px;
+    line-height: 25px;
+  }
+  .care_details ol{
+    padding: 5px 5px 10px 15px;
   }
   
   .care_title img{
-      position: absolute;
-      left: 50px;
-      top: 20px;
+     display:none;
   }
   .care_title p{
     position: absolute;
-    left: 100px;
-    top: 12px;
+    left: 25px;
+    top: 18px;
     font-size: 35px;
     font-family: gaegu;
+    line-height: 25px;
   }
   
   
@@ -1255,9 +1255,8 @@ height: 80vh;
   
   }
   .provision_title{
-    position: relative;
+
     top: 0;
-    width: 100%;
     height: 80px;
     background-color: green;
     border-radius: 80px 80px 0 0;
@@ -1269,16 +1268,14 @@ height: 80vh;
   }
   
   .provision_title img{
-      position: absolute;
-      left: 50px;
-      top: 20px;
+      display: none;
   }
   .provision_title p{
     position: absolute;
-    left: 100px;
-    top: 12px;
-    font-size: 35px;
-    font-family: gaegu;
+    left: 80px;
+    top: 18px;
+    font-size: 30px;
+    line-height: 30px;
   }
   
   
@@ -1297,10 +1294,8 @@ height: 80vh;
   .community_title{
     position: relative;
     top: 0;
-    width: 100%;
     height: 80px;
-    background-color: lightskyblue;
-    border-radius: 80px 80px 0 0;
+ 
   }
   
   .community_details{
@@ -1308,29 +1303,27 @@ height: 80vh;
     justify-content: center;
     margin-bottom: 20px;
     line-height: 38px;
+    font-size: 14px;
   
   }
   
   .community_title img{
-      position: absolute;
-      left: 50px;
-      top: 20px;
-      line-height: 30px;
+      display:none;
   }
   .community_title p{
     position: absolute;
-    left: 100px;
-    top: 12px;
-    font-size: 35px;
+    left: 20px;
+    top: 18px;
+    font-size: 30px;
     font-family: gaegu;
+    line-height: 30px;
   }
   .saas{
     position: relative;
-    left: 40px;
-    font-size: 30px;
+    left: 10px;
+    font-size: 24px;
     font-family: gaegu;
-    text-decoration: underline;
-    margin: 2%;
+    line-height: 25px;
   }
 
 
