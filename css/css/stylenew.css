@@ -1170,9 +1170,9 @@ height: 80vh;
   
   .hiv_awareness{
     border-radius:80px 80px 30px 30px;
-  height: 60vh;
-    margin: 8px 0 10% 0;
-    /*border: 1px solid grey;*/
+    height: auto;
+    margin: 0;
+    padding: 0;
     background-color: rgb(183 ,234, 234, .1);
   
   
@@ -1188,7 +1188,7 @@ height: 80vh;
   }
   
   .awareness_details{
-    padding: 20px;
+    padding: 15px 5px 15px 5px;
     justify-content: center;
   }
   
