@@ -1052,7 +1052,7 @@ height: 80vh;
   top: 0;
   width: 100%;
   height: 80px;
-  background-color: green;
+  background-color: #FF7779;
   border-radius: 80px 80px 0 0;
 }
 
@@ -1161,7 +1161,7 @@ height: 80vh;
 }
 
 
-@media (max-width:410px) {
+@media (max-width:426px) {
   .about_pages{
     margin: 0;
     padding: 10px;
@@ -1172,10 +1172,10 @@ height: 80vh;
   
   .hiv_awareness{
     border-radius:80px 80px 30px 30px;
-    height: auto;
-    margin: 0 0 20PX 0;
-    padding: 0;
+    margin: 8px 0 10% 0;
+    /*border: 1px solid grey;*/
     background-color: rgb(183 ,234, 234, .1);
+    height: auto;
   
   
   
@@ -1183,12 +1183,16 @@ height: 80vh;
   .hiv_awareness_title{
     position: relative;
     top: 0;
-    height: 120px;
+    height: 150px;
   }
   
   .awareness_details{
-    padding: 10PX;
+    padding: 10px 5px;
     justify-content: center;
+    line-height: 25px;
+  }
+  .awareness_details ol{
+    padding: 5px 5px 10px 15px;
   }
   
   .hiv_awareness_title img{
@@ -1198,7 +1202,7 @@ height: 80vh;
     position: absolute;
     left: 35px;
     top: 24px;
-    font-size: 25px;
+    font-size: 30px;
     font-family: gaegu;
   }
   
@@ -1216,7 +1220,7 @@ height: 80vh;
     position: relative;
     top: 0;
     width: 100%;
-    height: 85px;
+    height: 120px;
 
   }
   
@@ -1234,38 +1238,34 @@ height: 80vh;
   }
   .care_title p{
     position: absolute;
-    left: 25px;
-    top: 18px;
+    left: 35px;
+    top: 35px;
     font-size: 35px;
     font-family: gaegu;
-    line-height: 25px;
+    line-height: 35px;
   }
   
   
   
   
-  .provision{
-    border-radius:80px 80px 30px 30px;
-  height: 80vh;
-    margin: 8px 0 10% 0;
-    /*border: 1px solid grey;*/
-    background-color: rgb(183 ,234, 234, .1);
-  
-  
-  
-  }
+
   .provision_title{
 
     top: 0;
-    height: 80px;
-    background-color: green;
+    height: 120px;
+    background-color: #FF7779 ;
     border-radius: 80px 80px 0 0;
   }
   
   .provision_details{
-    padding: 10px 0 0 0;
+    padding: 10px 5px;
     justify-content: center;
+    line-height: 25px;
   }
+  .provision_details ol{
+    padding: 5px 5px 10px 15px;
+  }
+  
   
   .provision_title img{
       display: none;
@@ -1273,28 +1273,19 @@ height: 80vh;
   .provision_title p{
     position: absolute;
     left: 80px;
-    top: 18px;
+    top: 25px;
     font-size: 30px;
-    line-height: 30px;
+    line-height: 35px;
   }
   
   
   
   
-  
-  .community{
-    border-radius:80px 80px 30px 30px;
-    margin: 8px 0 10% 0;
-    /*border: 1px solid grey;*/
-    background-color: rgb(183 ,234, 234, .1);
-    padding-bottom: 10%;
-  
-  
-  }
+
   .community_title{
     position: relative;
     top: 0;
-    height: 80px;
+    height: 120px;
  
   }
   
@@ -1303,9 +1294,14 @@ height: 80vh;
     justify-content: center;
     margin-bottom: 20px;
     line-height: 38px;
-    font-size: 14px;
   
   }
+  
+
+  .community_details ol{
+    padding: 5px 5px 10px 15px;
+  }
+  
   
   .community_title img{
       display:none;
@@ -1313,17 +1309,17 @@ height: 80vh;
   .community_title p{
     position: absolute;
     left: 20px;
-    top: 18px;
+    top: 35px;
     font-size: 30px;
     font-family: gaegu;
-    line-height: 30px;
+    line-height: 35px;
   }
   .saas{
     position: relative;
     left: 10px;
     font-size: 24px;
     font-family: gaegu;
-    line-height: 25px;
+    line-height: 30px;
   }
 
 
