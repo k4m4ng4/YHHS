@@ -484,4 +484,8 @@ font-family: gaegu, cursive;
 }
 
 
-  
+  .featured-section.overlay_blue:before{
+    background: grey;
+  }
+
+ 
