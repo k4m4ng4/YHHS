@@ -106,10 +106,10 @@ body{
 
 
  .vision .title , .mission .title{
-  left: 30%;
+  left: 20%;
  }
 .goals  .title {
-  left: 30%;
+  left: 20%;
   width: 150px;
   background-color:  #86B049;
 }
@@ -484,8 +484,12 @@ font-family: gaegu, cursive;
 }
 
 
-  .featured-section.overlay_blue:before{
-    background: grey;
+  .featured-section.overlay_lavender:before{
+    background: lavender;
   }
+  .featured-section.overlay_blue:before{
+    background: skyblue;
+  }
+
 
  

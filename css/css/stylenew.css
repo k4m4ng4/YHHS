@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: poppins;
+}
+
 .state{
   display: grid;
   grid-template-columns: 50px repeat(2, 1fr)60px repeat(2, 1fr) 60px;
@@ -1025,381 +1030,45 @@ left:15% ;
 }
 
 /*------------------------------------------about page------------------------------------------------------------*/
-.about_pages{
-  margin: .5%;
-  padding: 5%;
+
+    
+    /*----------------------------about page details-----------------------*/
+    .about_page_details{
+
+      width: 80%;
+      margin: 20px auto;
+      padding: 50px;
+
+
+    }
+    .about_page_details p{
+      text-align: center;
+      font-size: 20px;
+    }
+.about_page_details1 p{
+      text-align: center;
+      font-size: 20px;
+    }
+    .about_page_details1{
+      width: 100%;
+      margin: auto;
+    }
+    .about_page_details_content{
+      padding: auto;
+      margin: 30px auto;
+
+    }
+    .about_page_details_content p{
+   text-align: justify;
+  text-justify: inter-word;
+  font-size: 15px;
   font-family: poppins;
-}
-
-.hiv_awareness{
-  border-radius:80px 80px 30px 30px;
-height: 60vh;
-  margin: 8px 0 10% 0;
-  /*border: 1px solid grey;*/
-
-
-
-}
-.hiv_awareness_title{
-  position: relative;
-  top: 0;
-  width: 100%;
-  height: 80px;
-  background-color: #f2d0db;
-  border-radius: 80px 80px 0 0;
-}
-
-.awareness_details{
-  padding: 20px;
-  justify-content: center;
-}
-
-.hiv_awareness_title img{
-    position: absolute;
-    left: 50px;
-    top: 20px;
-}
-.hiv_awareness_title p{
-  position: absolute;
-  left: 100px;
-  top: 12px;
-  font-size: 35px;
-  font-family: gaegu;
-}
-
-
-
-.care{
-  border-radius:80px 80px 30px 30px;
-  margin: 8px 0 10% 0;
-  /*border: 1px solid grey;*/
-
-
-}
-.care_title{
-  position: relative;
-  top: 0;
-  width: 100%;
-  height: 85px;
-  background-color: #89fcc0;
-  border-radius: 80px 80px 0 0;
-}
-
-.care_details{
-  padding: 20px;
-  justify-content: center;
-  line-height: 35px;
-}
-
-.care_title img{
-    position: absolute;
-    left: 50px;
-    top: 20px;
-}
-.care_title p{
-  position: absolute;
-  left: 100px;
-  top: 12px;
-  font-size: 35px;
-  font-family: gaegu;
-}
-
-
-
-
-.provision{
-  border-radius:80px 80px 30px 30px;
-height: 80vh;
-  margin: 8px 0 10% 0;
-  /*border: 1px solid grey;*/
-
-
-
-}
-.provision_title{
-  position: relative;
-  top: 0;
-  width: 100%;
-  height: 80px;
-  background-color: #FF7779;
-  border-radius: 80px 80px 0 0;
-}
-
-.provision_details{
-  padding: 10px 0 0 0;
-  justify-content: center;
-}
-
-.provision_title img{
-    position: absolute;
-    left: 50px;
-    top: 20px;
-}
-.provision_title p{
-  position: absolute;
-  left: 100px;
-  top: 12px;
-  font-size: 35px;
-  font-family: gaegu;
-}
-
-
-
-
-
-.community{
-  border-radius:80px 80px 30px 30px;
-  margin: 8px 0 10% 0;
-  /*border: 1px solid grey;*/
-  padding-bottom: 10%;
-
-
-}
-.community_title{
-  position: relative;
-  top: 0;
-  width: 100%;
-  height: 80px;
-  background-color: lightskyblue;
-  border-radius: 80px 80px 0 0;
-}
-
-.community_details{
-  padding: 10px 0 0 0;
-  justify-content: center;
-  margin-bottom: 20px;
-  line-height: 38px;
-
-}
-
-.community_title img{
-    position: absolute;
-    left: 50px;
-    top: 20px;
-    line-height: 30px;
-}
-.community_title p{
-  position: absolute;
-  left: 100px;
-  top: 12px;
-  font-size: 35px;
-  font-family: gaegu;
-}
-.saas{
-  position: relative;
-  left: 40px;
-  font-size: 30px;
-  font-family: gaegu;
-  text-decoration: underline;
-  margin: 2%;
-}
-
-@media (max-width:769px) {
-/*------------------------------------------about page------------------------------------------------------------*/
-.about_pages{
-  margin: 0;
-  padding: 10px;
-
-}
-  .hiv_awareness{
-    border-radius:80px 80px 30px 30px;
-    margin: 8px 0 10% 0;
-    /*border: 1px solid grey;*/
-  
-  
-  
-  }
- 
-  
-  
-  .hiv_awareness_title p{
-    position: absolute;
-    left: 100px;
-    top: 18px;
-    font-size: 30px;
-    font-family: gaegu;
-    line-height: 30px;
-    justify-content: start;
-  }
-  
-  
-  
-  
-}
-
-
-@media (max-width:426px) {
-  .about_pages{
-    margin: 0;
-    padding: 10px;
-    font-family: poppins;
-    font-size: 14px;
-
-  }
-  
-  .hiv_awareness{
-    border-radius:80px 80px 30px 30px;
-    margin: 8px 0 10% 0;
-    /*border: 1px solid grey;*/
-    height: auto;
-  
-  
-  
-  }
-  .hiv_awareness_title{
-    position: relative;
-    top: 0;
-    height: 150px;
-  }
-  
-  .awareness_details{
-    padding: 10px 5px;
-    justify-content: center;
-    line-height: 25px;
-  }
-  .awareness_details ol{
-    padding: 5px 5px 10px 15px;
-  }
-  
-  .hiv_awareness_title img{
-   display: none;
-  }
-  .hiv_awareness_title p{
-    position: absolute;
-    left: 35px;
-    top: 24px;
-    font-size: 30px;
-    font-family: gaegu;
-  }
-  
-  
-  
-  .care{
-    border-radius:80px 80px 30px 30px;
-    margin: 8px 0 10% 0;
-    /*border: 1px solid grey;*/
-  
-  
-  }
-  .care_title{
-    position: relative;
-    top: 0;
-    width: 100%;
-    height: 120px;
-
-  }
-  
-  .care_details{
-    padding: 10px 5px;
-    justify-content: center;
-    line-height: 25px;
-  }
-  .care_details ol{
-    padding: 5px 5px 10px 15px;
-  }
-  
-  .care_title img{
-     display:none;
-  }
-  .care_title p{
-    position: absolute;
-    left: 25px;
-    top: 35px;
-    font-size: 35px;
-    font-family: gaegu;
-    line-height: 35px;
-  }
-  
-  
-  
-  
-
-  .provision_title{
-
-    top: 0;
-    height: 120px;
-    background-color: #FF7779 ;
-    border-radius: 80px 80px 0 0;
-  }
-  
-  .provision_details{
-    padding: 10px 5px;
-    justify-content: center;
-    line-height: 25px;
-  }
-  .provision_details ol{
-    padding: 5px 5px 10px 15px;
-  }
-  
-  
-  .provision_title img{
-      display: none;
-  }
-  .provision_title p{
-    position: absolute;
-    left: 80px;
-    top: 25px;
-    font-size: 30px;
-    line-height: 35px;
-  }
-  
-  
-  
-  
-
-  .community_title{
-    position: relative;
-    top: 0;
-    height: 120px;
- 
-  }
-  
-  .community_details{
-    padding: 10px 0 0 0;
-    justify-content: center;
-    margin-bottom: 20px;
-    line-height: 38px;
-  
-  }
-  
-
-  .community_details ol{
-    padding: 5px 5px 10px 15px;
-  }
-  
-  
-  .community_title img{
-      display:none;
-  }
-  .community_title p{
-    position: absolute;
-    left: 20px;
-    top: 35px;
-    font-size: 30px;
-    font-family: gaegu;
-    line-height: 35px;
-  }
-  .saas{
-    position: relative;
-    left: 10px;
-    font-size: 24px;
-    font-family: gaegu;
-    line-height: 30px;
-  }
-
-
-
-
-
-
-
-
-
-}
     
+
+    }  
+
     
-    
-    /*----------------------------test-----------------------------*/
+    /*----------------------------about page name card-----------------------------*/
  .team_card {
     margin: 0;
     padding: 0;
@@ -1416,7 +1085,8 @@ height: 80vh;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 40px 16px;
+    padding: 30px 16px;
+     background: #f4f3f2;
 }
 
 .card {
@@ -1425,8 +1095,10 @@ height: 80vh;
     padding: 16px;
     margin:  50px 24px;
     display: flex;
-    border: none;
-    flex-direction: column;
+    border-radius: 20px;
+    border: .2px solid black;
+/*    border: none;
+*/    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
