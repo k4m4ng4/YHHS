@@ -1,0 +1,191 @@
+:root {
+    --main-radius: 5px;
+    --main-padding: 5px;
+  }
+  
+  body {
+    font-family: "Gaegu", sans-serif;
+  }
+  
+  #wrapper {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-template-areas:
+      "nav nav nav nav"
+      "sidebar main main main"
+      "sidebar content1 content2 content3"
+      "sidebar content1 content2 content3";
+    grid-gap: 0.4rem;
+    font-size: 12px;
+    color: #000;
+
+  }
+  .project_fund_images{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1.5fr 1.5fr 1.2fr ;
+     grid-template-areas:
+       "img1" 
+       "img2"
+       "img3"
+       ;
+       grid-gap: 2px;
+       padding: 10px 30px;
+}
+.project_fund_images img{
+  width: 250px;
+  height: auto;
+}
+
+
+
+
+  .projecttitle {
+    grid-area: nav;
+    border: 2px solid gray;
+    
+    padding-top: var(--main-padding);
+    background-color: lavenderblush;
+    border-radius: 40px;
+    font-size: 20px;
+    font-family: gaegu, sans-serif;
+    margin: 0 250px;
+    text-transform: uppercase;
+    text-align: center;
+
+  }
+  
+  .project_Details {
+      grid-area: main;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    border: 2px solid rgba(220, 220, 220, 0.2);
+    border-radius: 0 30px 0px 0;
+    padding: 20px;
+  }
+  .project_Details h3{
+    text-align: center;
+    font-weight: 400;
+    font-family: gaegu, sans-serif;
+  }
+  
+  .sidebar {
+    grid-area: sidebar;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    background-color: #F3F0FF;
+    border-radius: 50px 0 0 50px;
+  }
+   .sidebar h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+   }
+  .content1 {
+    grid-area: content1;
+     text-align: justify;
+  text-justify: inter-word;
+  background-color: #FFFBFC ;
+  padding: 5px 20px;
+
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }
+  
+  .content2 {
+    grid-area: content2;
+     text-align: justify;
+  text-justify: inter-word;
+  background-color: #FFFAF0;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    padding: 15px 15px;
+  }
+  
+  .content3 {
+    grid-area: content3;
+     text-align: justify;
+  text-justify: inter-word;
+  background-color: #FFFBFC;
+      padding: 15px 15px;
+      border-radius: 0 0 50px 0;
+
+    padding-top: var(--main-padding);
+  }
+  
+  
+  
+  a {
+    text-align: center;
+    display: block;
+    font-family: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1rem;
+  }
+  .project_fund_images{
+    grid-area: area;
+
+  }
+  
+  @media only screen and (max-width: 550px) {
+    #wrapper {
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+      grid-template-areas:
+        "nav"
+        "sidebar"
+        "main"
+        "content1"
+        "content2"
+        "content3";
+    }
+    .projecttitle {
+    grid-area: nav;
+    margin: 0;
+    font-size: 20px;
+    height: 50px;
+
+    }
+    .project_Details h3{
+        text-align: center;
+        border-radius: 0;
+        
+    }
+    .project_Details{
+      border-radius: 0;
+    }
+    .content3{
+      border-radius: 0;
+    }
+
+    .sidebar h2{
+    text-align: left;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top:0;
+   }
+   .project_fund_images{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 2fr .1fr .2fr ;
+     grid-template-areas:
+       "img1 img2 img3" 
+      
+       ;
+       grid-gap: 5px;
+       padding: 10px 30px;
+}
+.project_fund_images img{
+  width: 100px;
+  height: auto;
+}
+.sidebar {
+    
+    border-radius: 0;
+  }
+}
