@@ -7,7 +7,7 @@
     font-family: "Gaegu", sans-serif;
   }
   
-  #wrapper_hknb {
+  #wrapper {
     display: grid;
     height: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -205,9 +205,9 @@
   }
   
   @media only screen and (max-width: 550px) {
-    #wrapper_hknb {
-      grid-template-columns: 1fr;
-      grid-template-rows: 0.1fr 0.2fr 1fr 0.5fr 0.5fr 0.5fr ;
+    #wrapper {
+       grid-template-columns: 1fr;
+      grid-template-rows: 0.1fr 0fr 1fr 0.4fr 0.4fr 0.4fr ;
       grid-template-areas:
         "nav"
         "sidebar"
@@ -216,6 +216,14 @@
         "content2"
         "content3";
     }
+    #wrapper .sidebar{
+      
+    }
+   .project_fund_images img{
+  width: 80px;
+  padding: 0 5px 0 0;
+  margin: 1;
+}
 
 
     #wrapper_twc{
@@ -265,7 +273,7 @@ border-radius: 30px;
  }
  #wrapper_hkp {
       grid-template-columns: 1fr;
-      grid-template-rows: 0.1fr 0fr 1fr 0.4fr 0.4fr ;
+      grid-template-rows: 0.1fr 0fr 1fr 0.4fr 0.4fr 0.4fr;
       grid-template-areas:
         "nav"
         "sidebar"
@@ -312,13 +320,10 @@ border-radius: 30px;
        "img1 img2 img3" 
       
        ;
-       grid-gap: 5px;
-       padding: 10px 30px;
+    
+     
 }
-.project_fund_images img{
-  width: 100px;
-  height: auto;
-}
+
 .sidebar {
     
     border-radius: 0;
