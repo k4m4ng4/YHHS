@@ -7,7 +7,7 @@
     font-family: "Gaegu", sans-serif;
   }
   
-  #wrapper {
+  #wrapper_hknb {
     display: grid;
     height: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -205,9 +205,9 @@
   }
   
   @media only screen and (max-width: 550px) {
-    #wrapper {
+    #wrapper_hknb {
       grid-template-columns: 1fr;
-      grid-template-rows: 0.1fr 0.3fr 1fr 0.5fr 0.5fr 0.5fr ;
+      grid-template-rows: 0.1fr 0.2fr 1fr 0.5fr 0.5fr 0.5fr ;
       grid-template-areas:
         "nav"
         "sidebar"
@@ -220,7 +220,7 @@
 
     #wrapper_twc{
  grid-template-columns: 1fr;
-      grid-template-rows: .1fr 0.1fr 1.1fr 0.5fr 0.5fr;
+      grid-template-rows: .1fr 0.1fr .7fr 0.5fr 0.5fr;
       grid-template-areas:
         "nav"
         "sidebar"
@@ -257,7 +257,7 @@ border-radius: 30px;
 
 #wrapper_unj{
   grid-template-columns: 1fr;
-      grid-template-rows: 0.4fr 0.2fr 1fr ;
+      grid-template-rows: 0.2fr 0.2fr 1fr ;
       grid-template-areas:
         "nav"
         "sidebar"
@@ -265,7 +265,7 @@ border-radius: 30px;
  }
  #wrapper_hkp {
       grid-template-columns: 1fr;
-      grid-template-rows: 0.1fr 0fr 1fr 0.4fr 0.4fr 0.4fr;
+      grid-template-rows: 0.1fr 0fr 1fr 0.4fr 0.4fr ;
       grid-template-areas:
         "nav"
         "sidebar"
@@ -276,7 +276,7 @@ border-radius: 30px;
     }
 #wrapper_unj .projecttitle{
   margin: 0 0 5px 0;
-  height: 110px;
+  height: 150px;
 }
     .projecttitle {
     grid-area: nav;
