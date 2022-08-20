@@ -584,45 +584,7 @@ background: rgb(123 199 160 / 0);
 /*------------------------------------------about page------------------------------------------------------------*/
 
     
-    /*----------------------------about page details-----------------------*/
-    .about_page_details{
-
-      width: 80%;
-      margin: 20px auto;
-      padding: 50px;
-
-
-    }
-    .about_page_details p{
-      text-align: center;
-      font-size: 20px;
-    }
-.about_page_details1 p{
-      text-align: center;
-      font-size: 20px;
-    }
-    .about_page_details1{
-      width: 100%;
-      margin: auto;
-       text-align: justify;
-  text-justify: inter-word;
-  line-height: 28px;
-    }
-    .about_page_details_content{
-      padding: auto;
-      margin: 30px auto;
-
-    }
-    .about_page_details_content p{
-   text-align: justify;
-  text-justify: inter-word;
-  font-size: 15px;
-  font-family: poppins;
-    
-
-    }  
-
-    
+   
     /*----------------------------about page name card-----------------------------*/
  .team_card {
     margin: 0;
@@ -745,3 +707,5 @@ button.pinterest {
   width: 100%;
   border-radius: 25px 25px 0 0;
 }
+
+
