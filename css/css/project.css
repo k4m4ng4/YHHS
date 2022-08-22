@@ -4,14 +4,15 @@
   }
   
   body {
+    background-color: #FFF;
     font-family: "Gaegu", sans-serif;
   }
   
   #wrapper {
     display: grid;
     height: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-template-columns: 0.8fr 3fr 0fr 3fr;
+    grid-template-rows: 0.1fr auto 1fr 1fr;
     grid-template-areas:
       "nav nav nav nav"
       "sidebar main main main"
@@ -20,10 +21,8 @@
     grid-gap: 0.4rem;
     font-size: 12px;
     color: #000;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    overflow: hidden;
+box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     border-radius: 40px;
-    background-color: transparent;
 
 
 
@@ -41,6 +40,9 @@
       "sidebar content1 content2 content3";
     grid-gap: 0.4rem;
     font-size: 12px;
+     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+      border-radius: 40px ;
+
     color: #000;
 
   }
@@ -49,7 +51,7 @@
     display: grid;
     height: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.1fr .8fr ;
+    grid-template-rows: 0.1fr ;
     grid-template-areas:
       "nav nav nav nav"
       "sidebar main main main"
@@ -57,6 +59,9 @@
     grid-gap: 0.4rem;
     font-size: 12px;
     color: #000;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+      border-radius: 40px 40px 60px 40px;
+      padding: 0;
 
   }
 
@@ -90,6 +95,8 @@
          grid-gap: 0.4rem;
     font-size: 12px;
     color: #000;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+      border-radius: 40px ;
 
  }
 
@@ -108,6 +115,8 @@
       grid-gap: 0.4rem;
     font-size: 12px;
     color: #000;
+     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+      border-radius: 40px ;
 
  }
  #wrapper_unj .projecttitle{
@@ -139,6 +148,7 @@
     border: 2px solid rgba(220, 220, 220, 0.2);
     border-radius: 0 30px 0px 0;
     padding: 20px;
+    background-color: white;
   }
   .project_Details h3{
     text-align: center;
@@ -156,7 +166,7 @@
     grid-area: sidebar;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
-    background-color: #F3F0FF;
+    background-color: #F5F5F5;
     border-radius: 50px 0 0 50px;
   }
    .sidebar h2{
@@ -214,7 +224,7 @@
   @media only screen and (max-width: 550px) {
     #wrapper {
        grid-template-columns: 1fr;
-      grid-template-rows: 0.1fr 0fr 1fr 0.4fr 0.4fr 0.4fr ;
+      grid-template-rows: 0fr 0fr 1fr 0.4fr 0fr 0.4fr ;
       grid-template-areas:
         "nav"
         "sidebar"
@@ -242,7 +252,9 @@
         "main"
         "content1"
         "content3";
+
  }
+
  #wrapper_ccs{
  grid-template-columns: 1fr;
       grid-template-rows: .1fr 0.2fr 1.1fr  ;
