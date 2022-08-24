@@ -18,22 +18,11 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 1
   border-radius: 20px 20px 40px 40px;
  
 }
-.detailsholder:hover{
-  transform: scale(1.1);
+.aboutwords h3:hover{
   transition: all 0.84s ease-in-out;
 }
 
 
-.aboutwords h3:hover:nth-child(1){
-  color: orange;
-}
-
-.aboutwords h3:hover:nth-child(2){
-  color: blue;
-}
-.aboutwords:nth-child(3) h3:hover{
-  color: red;
-}
 .aboutdetails img {
   max-width: 100%;
   height: auto;
@@ -46,6 +35,12 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 1
       font-family: gaegu,cursive;
   }
 
+.yhhsdescription:hover{
+
+background-color: powderblue;
+transition: all .5s ease-in-out;
+  
+}
 
 .yhhsdescription{
   margin: 30px;
@@ -62,7 +57,7 @@ padding: 0.5%;
 }
 
 .yhhsdescription:hover{
-  transform: scale(1.05);
+  transform: scale(1.02);
   transition: all 0.6s ease-in-out;
    text-align: justify;
   text-align: center;
